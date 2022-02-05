@@ -1,15 +1,5 @@
 @import "./theme.css";
-
-/* css reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
+@import "./reset.css";
 
 body {
   background-color: var(--gray1);
@@ -27,7 +17,7 @@ body {
 }
 
 .navbar__logo {
-  color: #fca311;
+  color: var(--yellow1);
   font-weight: 600;
   text-decoration: none;
   font-size: 3.2rem;
@@ -68,7 +58,7 @@ body {
 }
 
 .hero h1 span {
-  color: #fca311;
+  color: var(--yellow1);
 }
 
 .hero__action {
@@ -96,7 +86,7 @@ body {
   font-size: 2.2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  background-color: #fca311;
+  background-color: var(--yellow1);
 }
 
 .btn--github,
@@ -113,5 +103,5 @@ body {
 
 .btn--main:hover,
 .btn--main:active {
-  background-color: #ca820e;
+  background-color: var(--yellow2);
 }
