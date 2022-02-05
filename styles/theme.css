@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap");
+
+/*colors */
+:root {
+  /* Gray Shades */
+  --gray1:#F7FAFC
+  --gray2: #e5e7eb;
+  --gray3: #e5e7eb;
+
+  /* Yellow */
+  --yellow1: #dde2c6;
+
+  /* Green */
+  --green1: #bbc5aa;
+
+  /* Red */
+  --red1: #a72608;
+
+  /* Black */
+  --black1: #090c02;
+}
