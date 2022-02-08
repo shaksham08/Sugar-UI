@@ -3,14 +3,19 @@
 /*colors */
 :root {
   /* Gray Shades */
-  --gray1:#F7FAFC
+  --gray1: #f7fafc;
   --gray2: #e5e7eb;
   --gray3: #e5e7eb;
+  --gray4: #767676;
+  --gray5: #555555;
 
   /* Yellow */
   --yellow1: #fca311;
-  --yellow2 : #ca820e;
+  --yellow2: #ca820e;
 
   /* Black */
   --black1: #090c02;
+
+  /* Brown */
+  --brown1: brown;
 }
