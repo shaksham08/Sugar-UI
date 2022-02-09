@@ -1,5 +1,5 @@
 .navbar {
-  border-bottom: 1px solid var(--gray3);
+  border-bottom: 1px solid var(--gray-light2);
 }
 
 .main {
@@ -19,8 +19,8 @@ a:visited {
   height: 100%;
   padding: 2rem 2rem;
   font-size: 2.2rem;
-  border-right: 1px solid var(--gray3);
-  color: var(--gray4);
+  border-right: 1px solid var(--gray-light2);
+  color: var(--gray-light4);
   scroll-behavior: smooth;
 }
 
@@ -36,7 +36,7 @@ a:visited {
 }
 
 .sidebar__item a {
-  color: var(--gray4);
+  color: var(gray-medium1);
 }
 
 .sidebar > a,
@@ -48,7 +48,7 @@ a:visited {
 .sidebar > a:nth-child(1) {
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--gray3);
+  border-bottom: 1px solid var(--gray-light2);
 }
 
 .sidebar__list {

@@ -2,7 +2,7 @@
 @import "./reset.css";
 
 body {
-  background-color: var(--gray1);
+  background-color: var(--gray-light1);
   font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
@@ -91,12 +91,12 @@ body {
 .hero__btn--github,
 .hero__btn--github:visited,
 .hero__btn--github:link {
-  background-color: var(--gray3);
+  background-color: var(--gray-light2);
 }
 
 .hero__btn--main:visited,
 .hero__btn--main:link {
-  color: white;
+  color: var(--white);
   transition: background-color ease-in-out 0.2s;
 }
 

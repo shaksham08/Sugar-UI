@@ -2,20 +2,26 @@
 
 /*colors */
 :root {
+  /* White */
+  --white: #fff;
+
   /* Gray Shades */
-  --gray1: #f7fafc;
-  --gray2: #e5e7eb;
-  --gray3: #e5e7eb;
-  --gray4: #767676;
-  --gray5: #555555;
+  --gray-light1: #f7fafc;
+  --gray-light2: #e5e7eb;
+  --gray-medium1: #767676;
+  --gray-dark1: #555555;
 
   /* Yellow */
-  --yellow1: #fca311;
-  --yellow2: #ca820e;
+  --yellow-light1: #fca311;
+  --yellow-dark2: #ca820e;
 
   /* Black */
   --black1: #090c02;
 
   /* Brown */
   --brown1: brown;
+
+  /* 
+  gray3
+  */
 }
