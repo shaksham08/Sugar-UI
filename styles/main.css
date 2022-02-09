@@ -2,7 +2,7 @@
 @import "./reset.css";
 
 body {
-  background-color: var(--gray1);
+  background-color: var(--gray-light1);
   font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar__logo {
-  color: var(--yellow1);
+  color: var(--yellow-light1);
   font-weight: 600;
   text-decoration: none;
   font-size: 3.2rem;
@@ -57,7 +57,7 @@ body {
 }
 
 .hero h1 span {
-  color: var(--yellow1);
+  color: var(--yellow-light1);
 }
 
 .hero__action {
@@ -75,9 +75,9 @@ body {
   margin-left: 0.5rem;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
+.hero__btn,
+.hero__btn:link,
+.hero__btn:visited {
   color: var(--black1);
   display: inline-block;
   border-radius: 9px;
@@ -85,22 +85,22 @@ body {
   font-size: 2.2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  background-color: var(--yellow1);
+  background-color: var(--yellow-light1);
 }
 
-.btn--github,
-.btn--github:visited,
-.btn--github:link {
-  background-color: var(--gray3);
+.hero__btn--github,
+.hero__btn--github:visited,
+.hero__btn--github:link {
+  background-color: var(--gray-light2);
 }
 
-.btn--main:visited,
-.btn--main:link {
-  color: white;
+.hero__btn--main:visited,
+.hero__btn--main:link {
+  color: var(--white);
   transition: background-color ease-in-out 0.2s;
 }
 
-.btn--main:hover,
-.btn--main:active {
-  background-color: var(--yellow2);
+.hero__btn--main:hover,
+.hero__btn--main:active {
+  background-color: var(--yellow-dark1);
 }
