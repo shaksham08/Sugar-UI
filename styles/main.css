@@ -16,7 +16,7 @@ body {
 }
 
 .navbar__logo {
-  color: var(--yellow1);
+  color: var(--yellow-light1);
   font-weight: 600;
   text-decoration: none;
   font-size: 3.2rem;
@@ -57,7 +57,7 @@ body {
 }
 
 .hero h1 span {
-  color: var(--yellow1);
+  color: var(--yellow-light1);
 }
 
 .hero__action {
@@ -85,7 +85,7 @@ body {
   font-size: 2.2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  background-color: var(--yellow1);
+  background-color: var(--yellow-light1);
 }
 
 .hero__btn--github,
@@ -102,5 +102,5 @@ body {
 
 .hero__btn--main:hover,
 .hero__btn--main:active {
-  background-color: var(--yellow2);
+  background-color: var(--yellow-dark1);
 }
