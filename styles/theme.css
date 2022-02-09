@@ -13,6 +13,7 @@
 
   /* Yellow */
   --yellow-light1: #fca311;
+  --yellow-light2: #fff3cd;
   --yellow-dark1: #ca820e;
 
   /* Black */
@@ -20,4 +21,21 @@
 
   /* Brown */
   --brown1: brown;
+
+  /* Blue */
+  --skyblue: #cfe2ff;
+  --skyblue-light: #cff4fc;
+  --dark-blue: #084298;
+
+  /* Teal */
+  --teal-light: #d1e7dd;
+
+  /* Green */
+  --green-dark: #0f5132;
+
+  /* Pink */
+  --pink-light: #f8d7da;
+
+  /* Red */
+  --red-dark: #842029;
 }

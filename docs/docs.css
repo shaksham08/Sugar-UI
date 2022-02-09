@@ -61,6 +61,10 @@ a:visited {
   margin-top: 1.5rem;
 }
 
+.sidebar__item a {
+  margin-top: 1.5rem;
+}
+
 .active {
   color: var(--black1) !important;
 }
