@@ -19,7 +19,7 @@
 .badge__avatar--xsm {
   width: 0.5rem;
   height: 0.5rem;
-  background-color: var(--red-dark);
+  background-color: var(--red-dark-primary);
   bottom: 4px;
   right: 4px;
   border: 1px solid var(--white);
@@ -28,7 +28,7 @@
 .badge__avatar--sm {
   width: 0.8rem;
   height: 0.8rem;
-  background-color: var(--green-dark);
+  background-color: var(--green-dark-primary);
   bottom: 5px;
   right: 5px;
   border: 1px solid var(--white);
@@ -37,7 +37,7 @@
 .badge__avatar--md {
   width: 1rem;
   height: 1rem;
-  background-color: var(--dark-blue);
+  background-color: var(--dark-blue-primary);
   bottom: 8px;
   right: 8px;
   border: 1.5px solid var(--white);

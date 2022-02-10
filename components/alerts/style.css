@@ -18,8 +18,8 @@
 
 .alert--primary {
   background: var(--skyblue);
-  color: var(--dark-blue);
-  border: 1px solid var(--dark-blue);
+  color: var(--dark-blue-primary);
+  border: 1px solid var(--dark-blue-primary);
 }
 
 .alert--secondary {
@@ -30,14 +30,14 @@
 
 .alert--success {
   background: var(--teal-light);
-  color: var(--green-dark);
-  border: 1px solid var(--green-dark);
+  color: var(--green-dark-primary);
+  border: 1px solid var(--green-dark-primary);
 }
 
 .alert--danger {
   background: var(--pink-light);
-  color: var(--red-dark);
-  border: 1px solid var(--red-dark);
+  color: var(--red-dark-primary);
+  border: 1px solid var(--red-dark-primary);
 }
 
 .alert--warning {
@@ -47,7 +47,7 @@
 }
 
 .alert--info {
-  background: var(--skyblue-light);
-  color: var(--green-dark);
-  border: 1px solid var(--green-dark);
+  background: var(--skyblue-light-primary);
+  color: var(--green-dark-primary);
+  border: 1px solid var(--green-dark-primary);
 }
