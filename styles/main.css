@@ -2,7 +2,7 @@
 @import "./reset.css";
 
 body {
-  background-color: var(--gray-light1);
+  background-color: var(--gray-light-primary);
   font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar__logo {
-  color: var(--yellow-light1);
+  color: var(--yellow-light-primary);
   font-weight: 600;
   text-decoration: none;
   font-size: 3.2rem;
@@ -37,7 +37,7 @@ body {
 .navbar__list:nth-child(2) a:link,
 .navbar__list:nth-child(2) a:visited {
   text-decoration: none;
-  color: var(--black1);
+  color: var(--black-primary);
 }
 
 .navbar__list:nth-child(2) i {
@@ -57,7 +57,7 @@ body {
 }
 
 .hero h1 span {
-  color: var(--yellow-light1);
+  color: var(--yellow-light-primary);
 }
 
 .hero__action {
@@ -78,20 +78,20 @@ body {
 .hero__btn,
 .hero__btn:link,
 .hero__btn:visited {
-  color: var(--black1);
+  color: var(--black-primary);
   display: inline-block;
   border-radius: 9px;
   text-decoration: none;
   font-size: 2.2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  background-color: var(--yellow-light1);
+  background-color: var(--yellow-light-primary);
 }
 
 .hero__btn--github,
 .hero__btn--github:visited,
 .hero__btn--github:link {
-  background-color: var(--gray-light2);
+  background-color: var(--gray-light-secondary);
 }
 
 .hero__btn--main:visited,
@@ -102,5 +102,5 @@ body {
 
 .hero__btn--main:hover,
 .hero__btn--main:active {
-  background-color: var(--yellow-dark1);
+  background-color: var(--yellow-dark-primary);
 }
