@@ -1,5 +1,5 @@
 .navbar {
-  border-bottom: 1px solid var(--gray-light2);
+  border-bottom: 1px solid var(--gray-light-secondary);
 }
 
 .main {
@@ -19,7 +19,7 @@ a:visited {
   height: 100%;
   padding: 2rem 2rem;
   font-size: 2.2rem;
-  border-right: 1px solid var(--gray-light2);
+  border-right: 1px solid var(--gray-light-secondary);
   color: var(--gray-light4);
   scroll-behavior: smooth;
 }
@@ -36,19 +36,19 @@ a:visited {
 }
 
 .sidebar__item a {
-  color: var(--gray-medium1);
+  color: var(--gray-medium-primary);
 }
 
 .sidebar > a,
 .sidebar > a:link,
 .sidebar > a:visited {
-  color: var(--black1);
+  color: var(--black-primary);
 }
 
 .sidebar > a:nth-child(1) {
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--gray-light2);
+  border-bottom: 1px solid var(--gray-light-secondary);
 }
 
 .sidebar__list {
@@ -66,7 +66,7 @@ a:visited {
 }
 
 .active {
-  color: var(--black1) !important;
+  color: var(--black-primary) !important;
 }
 
 .content {

@@ -6,21 +6,21 @@
   --white: #fff;
 
   /* Gray Shades */
-  --gray-light1: #f7fafc;
-  --gray-light2: #e5e7eb;
-  --gray-medium1: #767676;
-  --gray-dark1: #555555;
+  --gray-light-primary: #f7fafc;
+  --gray-light-secondary: #e5e7eb;
+  --gray-medium-primary: #767676;
+  --gray-dark-primary: #555555;
 
   /* Yellow */
-  --yellow-light1: #fca311;
-  --yellow-light2: #fff3cd;
-  --yellow-dark1: #ca820e;
+  --yellow-light-primary: #fca311;
+  --yellow-light-secondary: #fff3cd;
+  --yellow-dark-primary: #ca820e;
 
   /* Black */
-  --black1: #090c02;
+  --black-primary: #090c02;
 
   /* Brown */
-  --brown1: brown;
+  --brown-primary: brown;
 
   /* Blue */
   --skyblue: #cfe2ff;
