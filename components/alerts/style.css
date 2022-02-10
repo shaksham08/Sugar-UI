@@ -1,0 +1,53 @@
+.alert__content {
+  border: 1px solid var(--gray-light-secondary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.alert__content .alert {
+  margin-top: 2rem;
+}
+
+.alert {
+  padding: 2rem 1rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+}
+
+.alert--primary {
+  background: var(--skyblue);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+.alert--secondary {
+  background: var(--gray-light-secondary);
+  color: var(--gray-dark-primary);
+  border: 1px solid var(--gray-dark-primary);
+}
+
+.alert--success {
+  background: var(--teal-light);
+  color: var(--green-dark);
+  border: 1px solid var(--green-dark);
+}
+
+.alert--danger {
+  background: var(--pink-light);
+  color: var(--red-dark);
+  border: 1px solid var(--red-dark);
+}
+
+.alert--warning {
+  background: var(--yellow-light-secondary);
+  color: var(--brown-primary);
+  border: 1px solid var(--brown-primary);
+}
+
+.alert--info {
+  background: var(--skyblue-light);
+  color: var(--green-dark);
+  border: 1px solid var(--green-dark);
+}

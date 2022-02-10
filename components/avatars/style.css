@@ -2,7 +2,7 @@
   display: flex;
   gap: 2rem;
   align-items: center;
-  border: 1px solid var(--gray-light2);
+  border: 1px solid var(--gray-light-secondary);
   padding: 2rem;
   margin-top: 2rem;
 }
@@ -80,6 +80,6 @@
 }
 
 .color {
-  background-color: var(--brown1);
-  color: var(--gray-light2);
+  background-color: var(--brown-primary);
+  color: var(--gray-light-secondary);
 }
