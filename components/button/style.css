@@ -1,0 +1,65 @@
+.button__content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border: 1px solid var(--gray-light-secondary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1rem 2.2rem;
+  font-size: 2.2rem;
+  color: var(--white);
+  border-radius: 0.25rem;
+  border: 0.5px solid transparent;
+}
+
+.btn--primary {
+  background-color: var(--dark-blue-secondary);
+  border-color: var(--dark-blue-primary);
+}
+
+.btn--secondary {
+  background-color: var(--gray-medium-primary);
+  border-color: var(--gray-dark-primary);
+}
+
+.btn--success {
+  background-color: var(--green-dark-secondary);
+  border-color: var(--green-dark-primary);
+}
+
+.btn--danger {
+  background-color: var(--red-dark-secondary);
+  border-color: var(--red-dark-primary);
+}
+
+.btn--warning {
+  color: var(--black-primary);
+  background-color: var(--yellow-light-primary);
+  border-color: var(--yellow-dark-primary);
+}
+
+.btn--info {
+  color: var(--black-primary);
+  background-color: var(--skyblue-light-secondary);
+  border-color: var(--dark-blue-primary);
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.btn--float {
+  border-radius: 50%;
+  padding: 2rem;
+  background-color: var(--pink-light);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
