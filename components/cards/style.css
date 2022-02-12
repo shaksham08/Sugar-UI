@@ -85,7 +85,7 @@
 }
 
 .card__buttons .btn:last-child:hover {
-  color: white;
+  color: var(--white);
   background-color: var(--red-dark-secondary);
 }
 
