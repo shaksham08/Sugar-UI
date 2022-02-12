@@ -48,6 +48,12 @@
   border-color: var(--dark-blue-primary);
 }
 
+.btn__disabled {
+  background-color: var(--gray-medium-primary);
+  color: var(--gray-light-primary);
+  cursor: not-allowed;
+}
+
 a,
 a:link,
 a:visited {

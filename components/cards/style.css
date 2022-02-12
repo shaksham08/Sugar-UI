@@ -1,0 +1,241 @@
+.card__content {
+  border: 1px solid var(--gray-light-secondary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  box-shadow: 5rem 5rem 5rem 5rem;
+  box-shadow: 0px 0px 5px 0px var(--gray-light-primary);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 1rem 0 var(--gray-light-secondary);
+}
+
+.card__vertical {
+  max-width: 30rem;
+  margin: 0.5rem;
+}
+
+.card__img {
+  border-radius: 0.2rem;
+  max-height: 25rem;
+}
+
+.card__details {
+  padding: 0.5rem;
+}
+
+.card__title {
+  margin-top: 0.2rem;
+  font-size: 2rem;
+}
+
+.card__sub-title {
+  display: inline-block;
+  color: var(--gray-medium-primary);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.card__price-section {
+  padding: 0.5rem;
+  display: flex;
+  margin: 0.2rem 0rem;
+}
+
+.selling__price {
+  font-size: 1.5rem;
+}
+
+.original__price {
+  color: var(--gray-medium-primary);
+  margin: 0.2rem 0.5rem;
+  text-decoration: line-through;
+}
+
+.card__discount {
+  font-size: 1.5rem;
+  color: var(--green-dark-secondary);
+}
+
+.card__buttons {
+  padding: 0.2rem 0 0.5rem 0.5rem;
+}
+
+.card__buttons .btn {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.card__btn {
+  background-color: var(--skyblue-light-secondary);
+}
+
+.card__buttons .btn:last-child {
+  background-color: transparent;
+  color: var(--black-primary);
+  border: 1px solid var(--red-dark-secondary);
+}
+
+.card__buttons .btn:last-child:hover {
+  color: white;
+  background-color: var(--red-dark-secondary);
+}
+
+.card__icon {
+  font-size: 1.2rem;
+}
+
+.card__overlay__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+}
+
+.card__badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: var(--dark-blue-secondary);
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.card__overlay {
+  opacity: 0.6;
+}
+
+.card__overlay__details {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--gray-medium-primary);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.card__overlay__title {
+  color: var(--gray-light-primary);
+}
+
+.card__horizontal {
+  flex-direction: row;
+  max-width: fit-content;
+}
+
+.card__img__horizontal {
+  min-height: 30rem;
+  width: 25rem;
+  background-size: cover;
+}
+
+.card__details__horizontal {
+  padding: 0.3rem;
+}
+.card__horizontal__price {
+  margin-top: 2.2rem;
+}
+
+.card__quantity {
+  vertical-align: baseline;
+  margin: 0.8rem 0.5rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card__quantity-btn {
+  background: transparent;
+  padding: 0.2rem 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid var(--black-primary);
+}
+
+.card__quantity-btn i {
+  vertical-align: middle;
+}
+
+.quantity-value {
+  width: 2rem;
+  margin: 0 0.3rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.card-quantity-btn,
+.quantity-value {
+  border: 1.5px solid var(--gray-medium-primary);
+}
+
+.card__horizontal__buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem 0.5rem;
+  margin-top: 2rem;
+}
+
+.card__btn__horizontal {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+  margin-bottom: 2rem;
+}
+
+.card__btn__horizontal i {
+  font-size: 2rem;
+}
+
+.card__horizontal__buttons .btn:last-child {
+  background-color: transparent;
+  color: var(--black-primary);
+  border: 1px solid var(--red-dark-secondary);
+}
+
+.card__horizontal__buttons .btn:last-child:hover {
+  color: white;
+  background-color: var(--red-dark-secondary);
+}
+
+.card__text {
+  padding: 1.5rem;
+  flex-direction: column;
+  max-width: 40rem;
+}
+
+.card__text__title {
+  font-size: 2.2rem;
+}
+
+.card__text__item {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+.card__text__title,
+.line__break,
+.card__text__label {
+  margin: 1rem 0;
+}
+
+.card__price__align {
+  margin-top: 1rem;
+}
+
+.card__text__item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
