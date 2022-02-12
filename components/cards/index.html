@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugar UI | Build Responsive Sites</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../docs/docs.css" />
+    <link rel="stylesheet" href="../component.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar__logo" href="../../index.html">Sugar UI</a>
+      <ul class="navbar__list">
+        <li><a href="../../docs/index.html">Docs</a></li>
+        <li>
+          <a target="__blank" href="https://github.com/shaksham08/Sugar-UI"
+            ><i class="ri-github-fill"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <div class="sidebar">
+        <a href="../../docs/index.html">Getting Started</a>
+        <a href="../../docs/index.html">Components</a>
+        <ul class="sidebar__list">
+          <li class="sidebar__item">
+            <a href="../alerts/index.html">Avatars</a>
+            <a href="../alerts/index.html">Alerts</a>
+            <a href="../alerts/index.html">Badges</a>
+            <a href="../button/index.html">Buttons</a>
+            <a class="active" href="#">Cards</a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <!-- Vertical Cards -->
+        <div class="component">
+          <h1 class="component__header">Verticals Cards</h1>
+          <p class="component__info">
+            A card is a flexible and extensible content container. It includes
+            options for headers and footers, a wide variety of content,
+            contextual background colors, and powerful display options.
+          </p>
+          <div class="card__content">
+            <div class="card card__vertical">
+              <img class="card__img" src="../../assets/camera.jpg" alt="img" />
+              <div class="card__details">
+                <h3 class="card__title">Canon D6500</h3>
+                <small class="card__sub-title"
+                  >Canon D6500 super zoom camera</small
+                >
+              </div>
+              <div class="card__price__section">
+                <strong class="card__selling__price">₹ 20000</strong>
+                <small class="card__original__price">₹ 40000</small>
+                <p class="card__discount">(50% off)</p>
+              </div>
+              <div class="card__buttons">
+                <button type="button" class="btn card__btn">
+                  <i class="ri-shopping-cart-2-fill card__icon"></i> Add to cart
+                </button>
+                <button type="button" class="btn">
+                  <i class="ri-heart-fill card__icon"></i> Wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62077b883d90130015398bfc"
+              style="width: 100%; height: 34.6rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <!-- Card with Text overlay -->
+        <div class="component">
+          <h1 class="component__header">Card with Text Overlay</h1>
+          <p class="component__info">
+            A card is a flexible and extensible content container. It includes
+            options for headers and footers, a wide variety of content,
+            contextual background colors, and powerful display options.
+          </p>
+          <div class="card__content">
+            <div class="card card__vertical">
+              <div class="card__overlay__container card__overlay">
+                <img
+                  class="card__img"
+                  src="../../assets/camera.jpg"
+                  alt="img"
+                />
+                <div class="card__overlay__details">
+                  <h3 class="card__overlay__title">OUT OF STOCK</h3>
+                </div>
+              </div>
+              <div class="card__details">
+                <h3 class="card__title">Canon D6500</h3>
+                <small class="card__sub-title"
+                  >Canon D6500 super zoom camera</small
+                >
+              </div>
+              <div class="card__price__section">
+                <strong class="card__selling__price">₹ 20000</strong>
+                <small class="card__original__price">₹ 40000</small>
+                <p class="card__discount">(50% off)</p>
+              </div>
+              <div class="card__buttons">
+                <button type="button" class="btn btn__disabled">
+                  <i class="ri-shopping-cart-2-fill card__icon"></i> Add to cart
+                </button>
+                <button type="button" class="btn">
+                  <i class="ri-heart-fill card__icon"></i> Wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620788b03d90130015398c06"
+              style="width: 100%; height: 41.1rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <!-- Card with badges -->
+        <div class="component">
+          <h1 class="component__header">Card with Badges</h1>
+          <p class="component__info">
+            A card is a flexible and extensible content container. It includes
+            options for headers and footers, a wide variety of content,
+            contextual background colors, and powerful display options.
+          </p>
+          <div class="card__content">
+            <div class="card card__vertical">
+              <div class="card__overlay__container">
+                <img
+                  class="card__img"
+                  src="../../assets/camera.jpg"
+                  alt="img"
+                />
+                <small class="card__badge">Must Buy</small>
+              </div>
+              <div class="card__details">
+                <h3 class="card__title">Canon D6500</h3>
+                <small class="card__sub-title"
+                  >Canon D6500 super zoom camera</small
+                >
+              </div>
+              <div class="card__price__section">
+                <strong class="card__selling__price">₹ 20000</strong>
+                <small class="card__original__price">₹ 40000</small>
+                <p class="card__discount">(50% off)</p>
+              </div>
+              <div class="card__buttons">
+                <button type="button" class="btn card__btn">
+                  <i class="ri-shopping-cart-2-fill card__icon"></i> Add to cart
+                </button>
+                <button type="button" class="btn">
+                  <i class="ri-heart-fill card__icon"></i> Wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620782973d90130015398c05"
+              style="width: 100%; height: 38.5rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Horizontal Cards -->
+        <div class="component">
+          <h1 class="component__header">Horizontal Cards</h1>
+          <p class="component__info">
+            A card is a flexible and extensible content container. It includes
+            options for headers and footers, a wide variety of content,
+            contextual background colors, and powerful display options.
+          </p>
+          <div class="card__content">
+            <div class="card card__horizontal">
+              <img
+                class="card__img card__img__horizontal"
+                src="../../assets/camera.jpg"
+                alt="img"
+              />
+              <div class="card__details__horizontal">
+                <div class="card__details">
+                  <h3 class="card__title">Canon D6500</h3>
+                  <small class="card__sub-title"
+                    >Canon D6500 super zoom camera</small
+                  >
+                </div>
+                <div class="card__price__section card__horizontal__price">
+                  <strong class="card__selling__price">₹ 20000</strong>
+                  <small class="card__original__price">₹ 40000</small>
+                  <p class="card__discount">(50% off)</p>
+                </div>
+
+                <div class="card__quantity">
+                  <p>
+                    Quantity:
+                    <button
+                      type="button"
+                      class="btn--float card__quantity__btn"
+                    >
+                      <i class="ri-subtract-line"></i>
+                    </button>
+                    <input type="text" class="quantity-value" value="1" />
+                    <button
+                      type="button"
+                      class="btn--float card__quantity__btn"
+                    >
+                      <i class="ri-add-line"></i>
+                    </button>
+                  </p>
+                </div>
+                <div class="card__horizontal__buttons">
+                  <button
+                    type="button"
+                    class="btn card__btn card__btn__horizontal"
+                  >
+                    <i class="ri-shopping-cart-2-fill card__icon"></i> Add to
+                    cart
+                  </button>
+                  <button type="button" class="btn card__btn__horizontal">
+                    <i
+                      class="ri-heart-fill card__icon card__icon__horizontal"
+                    ></i>
+                    Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6207b1353d90130015398c18"
+              style="width: 100%; height: 56.7rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Horizontal cards with Text only  -->
+        <div class="component">
+          <h1 class="component__header">Cards With Text Only</h1>
+          <p class="component__info">
+            A card is a flexible and extensible content container. It includes
+            options for headers and footers, a wide variety of content,
+            contextual background colors, and powerful display options.
+          </p>
+          <div class="card__content">
+            <div class="card card__text">
+              <h3 class="card__text__title">PRICE DETAILS</h3>
+              <hr class="line__break" />
+              <p class="card__text__item">
+                <span class="card__text__label"
+                  >Price (<span>2</span> items)</span
+                >
+                <span class="card__price__align">₹8000</span>
+              </p>
+              <p class="card__text__item">
+                <span class="card__text__label">Discount</span>
+                <span class="discount-charges card__price__align">- ₹400</span>
+              </p>
+              <p class="card__text__item">
+                <span class="card__text__label">Delivery charges</span>
+                <span class="card__price__align">
+                  <span class="card__original__price">199</span>
+                  <span class="card__discount">Free</span>
+                </span>
+              </p>
+              <hr class="line-separate" />
+              <p class="card__text__item">
+                <span class="card__text__label"
+                  ><strong>TOTAL AMOUNT</strong></span
+                >
+                <span class="card__price__align">₹7600</span>
+              </p>
+              <hr class="line-separate" />
+              <p class="card__text__label">
+                You have saved
+                <strong class="discount-charges">₹ 599</strong> on this
+                purchase.
+              </p>
+              <button type="button" class="btn btn--success">
+                Place Order
+              </button>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6207b0d13d90130015398c17"
+              style="width: 100%; height: 51.5rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

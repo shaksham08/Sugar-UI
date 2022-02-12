@@ -9,7 +9,7 @@
 
 .btn {
   cursor: pointer;
-  padding: 1rem 2.2rem;
+  padding: 0.5rem 2.2rem;
   font-size: 2.2rem;
   color: var(--white);
   border-radius: 0.25rem;
@@ -46,6 +46,12 @@
   color: var(--black-primary);
   background-color: var(--skyblue-light-secondary);
   border-color: var(--dark-blue-primary);
+}
+
+.btn__disabled {
+  background-color: var(--gray-medium-primary);
+  color: var(--gray-light-primary);
+  cursor: not-allowed;
 }
 
 a,
