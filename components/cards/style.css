@@ -42,17 +42,17 @@
   margin-top: 0.5rem;
 }
 
-.card__price-section {
+.card__price__section {
   padding: 0.5rem;
   display: flex;
   margin: 0.2rem 0rem;
 }
 
-.selling__price {
+.card__selling__price {
   font-size: 1.5rem;
 }
 
-.original__price {
+.card__original__price {
   color: var(--gray-medium-primary);
   margin: 0.2rem 0.5rem;
   text-decoration: line-through;
@@ -155,7 +155,7 @@
   margin-top: 1rem;
 }
 
-.card__quantity-btn {
+.card__quantity__btn {
   background: transparent;
   padding: 0.2rem 0.2rem;
   border-radius: 50%;
@@ -164,7 +164,7 @@
   border: 1px solid var(--black-primary);
 }
 
-.card__quantity-btn i {
+.card__quantity__btn i {
   vertical-align: middle;
 }
 
