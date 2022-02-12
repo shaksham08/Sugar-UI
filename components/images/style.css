@@ -1,0 +1,17 @@
+.image__content {
+  border: 1px solid var(--gray-light-secondary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.img--responsive {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.img--round {
+  width: 35rem;
+  height: 35rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
