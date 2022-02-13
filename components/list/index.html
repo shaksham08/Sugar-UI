@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugar UI | Build Responsive Sites</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../docs/docs.css" />
+    <link rel="stylesheet" href="../component.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar__logo" href="../../index.html">Sugar UI</a>
+      <ul class="navbar__list">
+        <li><a href="../../docs/index.html">Docs</a></li>
+        <li>
+          <a target="__blank" href="https://github.com/shaksham08/Sugar-UI"
+            ><i class="ri-github-fill"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <div class="sidebar">
+        <a href="../../docs/index.html">Getting Started</a>
+        <a href="../../docs/index.html">Components</a>
+        <ul class="sidebar__list">
+          <li class="sidebar__item">
+            <a href="../alerts/index.html">Avatars</a>
+            <a href="../alerts/index.html">Alerts</a>
+            <a href="../alerts/index.html">Badges</a>
+            <a href="../button/index.html">Buttons</a>
+            <a href="../cards/index.html">Cards</a>
+            <a href="../images/index.html">Images</a>
+            <a class="active" href="#">List</a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="component">
+          <h1 class="component__header">Unordered List</h1>
+          <p class="component__info">
+            An unordered list typically is a bulleted list of items. HTML 3.0
+            gives you the ability to customise the bullets, to do without
+            bullets and to wrap list items horizontally or vertically for
+            multicolumn lists.
+          </p>
+          <div class="list__content">
+            <div class="list__container">
+              <ul>
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+            </div>
+
+            <div class="list__container">
+              <ul class="list__style--square">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+            </div>
+
+            <div class="list__container">
+              <ul class="list__style--none">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+            </div>
+
+            <div class="list__container">
+              <ul class="list__style--round">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6208cff5d9ba1100151e6c50"
+              style="width: 100%; height: 48.9rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="component">
+          <h1 class="component__header">Ordered List</h1>
+          <p class="component__info">
+            An ordered list typically is a numbered list of items. HTML 3.0
+            gives you the ability to control the sequence number - to continue
+            where the previous list left off, or to start at a particular
+            number.
+          </p>
+          <div class="list__content">
+            <div class="list__container">
+              <ol>
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ol>
+            </div>
+
+            <div class="list__container">
+              <ol class="list__style--upperAlpha">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ol>
+            </div>
+
+            <div class="list__container">
+              <ol class="list__style--lowerAlpha">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ol>
+            </div>
+
+            <div class="list__container">
+              <ol class="list__style--lowerRoman">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ol>
+            </div>
+
+            <div class="list__container">
+              <ol class="list__style--upperRoman">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ol>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6208d028d9ba1100151e6c51"
+              style="width: 100%; height: 59.3rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="component">
+          <h1 class="component__header">Stacked List</h1>
+          <p class="component__info">
+            A stacked list to show notifications etc.
+          </p>
+          <div class="list__stack__content">
+            <div class="list__stack">
+              <ul class="list__style--none">
+                <li class="list__item">
+                  <img
+                    class="avatar avatar--xsm"
+                    src="../../assets/avatarimg.jpg"
+                    alt="avatar-image"
+                  />
+                  <span> Notification 1 </span>
+                </li>
+                <li class="list__item">
+                  <img
+                    class="avatar avatar--xsm"
+                    src="../../assets/avatarimg.jpg"
+                    alt="avatar-image"
+                  />
+                  <span> Notification 2 </span>
+                </li>
+                <li class="list__item">
+                  <img
+                    class="avatar avatar--xsm"
+                    src="../../assets/avatarimg.jpg"
+                    alt="avatar-image"
+                  />
+                  <span> Notification 3 </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="component__code">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6208d055d9ba1100151e6c52"
+              style="width: 100%; height: 29.4rem"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
