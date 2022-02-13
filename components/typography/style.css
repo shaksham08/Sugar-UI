@@ -1,0 +1,57 @@
+.typography__content {
+  border: 1px solid var(--gray-light-secondary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.font__size--xxlg {
+  font-size: 5rem;
+}
+
+.font__size--xlg {
+  font-size: 4rem;
+}
+
+.font__size--lg {
+  font-size: 3.3rem;
+}
+
+.font__size--md {
+  font-size: 2.4rem;
+}
+
+.font__size--sm {
+  font-size: 1.6rem;
+}
+
+.font__size--xsm {
+  font-size: 1rem;
+}
+
+.font__weight--800 {
+  font-weight: 800;
+}
+
+.font__weight--700 {
+  font-weight: 700;
+}
+
+.font__weight--600 {
+  font-weight: 600;
+}
+
+.font__weight--500 {
+  font-weight: 500;
+}
+
+.font__weight--400 {
+  font-weight: 400;
+}
+
+.font__weight--300 {
+  font-weight: 300;
+}
+
+.font__weight--200 {
+  font-weight: 200;
+}
