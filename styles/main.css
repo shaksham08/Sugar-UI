@@ -2,6 +2,7 @@
 @import url("./reset.css");
 @import url(./general.css);
 
+
 body {
   background-color: var(--gray-light-primary);
   font-family: "Inter", sans-serif;

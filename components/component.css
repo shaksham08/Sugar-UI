@@ -5,3 +5,5 @@
 @import url(./cards/style.css);
 @import url(./inputs/style.css);
 @import url(./images/style.css);
+@import url("./typography/style.css");
+@import url(./list/style.css);
