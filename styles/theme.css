@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 
 /*colors */
 :root {
@@ -35,9 +35,11 @@
   /* Green */
   --green-dark-primary: #0f5132;
   --green-dark-secondary: #198754;
+  --green-light-primary: #90ee90;
 
   /* Pink */
   --pink-light: #f8d7da;
+  --pink--dark: #aa336a;
 
   /* Red */
   --red-dark-primary: #842029;
