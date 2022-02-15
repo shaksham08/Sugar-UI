@@ -1,6 +1,7 @@
 @import url("./theme.css");
 @import url("./reset.css");
-@import url("./general.css");
+@import url(./general.css);
+
 
 body {
   background-color: var(--gray-light-primary);
