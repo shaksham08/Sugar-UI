@@ -1,0 +1,27 @@
+.input__content {
+  border: 1px solid var(--gray-light-secondary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.input__label {
+  font-size: 1.4rem;
+}
+
+.input__control {
+  width: 100%;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--gray-light-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.input__required {
+  color: var(--red-dark-secondary);
+}
+
+.invalid__feedback {
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  color: var(--red-dark-secondary);
+}
