@@ -1,0 +1,15 @@
+@import url(../styles/reset.css);
+@import url(../styles/theme.css);
+@import url(../styles/general.css);
+@import url(../components/alerts/style.css);
+@import url(../components/avatars/style.css);
+@import url(../components/badges/style.css);
+@import url(../components/button/style.css);
+@import url(../components/cards/style.css);
+@import url(../components/inputs/style.css);
+@import url(../components/images/style.css);
+@import url(../components/modal/style.css);
+@import url(../components/typography/style.css);
+@import url(../components/list/style.css);
+@import url(../components/rating/style.css);
+@import url(../components/navbar/style.css);
