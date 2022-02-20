@@ -41,6 +41,11 @@
   gap: 0.2rem;
 }
 
+.nav__link,
+.nav__brand {
+  color: var(--black-primary);
+}
+
 .nav__link {
   transition: all ease-in-out 0.1s;
 }
