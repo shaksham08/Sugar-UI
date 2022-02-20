@@ -34,3 +34,5 @@ To use this component library, just add the below link tag in head tag of your h
 - [Toast](https://sugar-ui.vercel.app/components/toast/index.html)
 - [Grid](https://sugar-ui.vercel.app/components/grid/index.html)
 - [Navigation](https://sugar-ui.vercel.app/components/navbar/index.html)
+
+![SugarUi](/assets/workinggif.gif)
